@@ -1,0 +1,44 @@
+.fs-00{
+    font-size: 1.8rem!important;
+    color: rgb(255, 255, 255)!important;
+}
+.fs-01{
+    font-size: 1.4rem!important;
+    font-style: oblique;
+}
+.mycol{
+    color: rgb(253, 250, 250)!important;
+}
+.ac{
+    color: greenyellow!important;
+}
+.ac1{
+    color: greenyellow!important;
+
+}
+
+.centered {
+        position: absolute;
+        top: 35%;
+        left: 15%;
+
+      }
+.centered1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+  }
+.fs-03{
+    font-size: 1.4rem!important;
+
+}
+.fs-04{
+    color: rgb(97, 91, 189)!important;
+}
+.centered2 {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+
+  }

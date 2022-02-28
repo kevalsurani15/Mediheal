@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/807a6037-da40-4009-821a-de2d037572b1/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/mediheal-32",
+    "appService.deploySubpath": "."
+}

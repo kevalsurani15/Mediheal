@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    {{>headtag1}}
+<link rel="stylesheet" href="cssindex.css">
+
+
+    <title>MEDIHEAL</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        
+        <a class="navbar-brand fs-00 mycol1" href="#"><i class="bi-globe"></i>&nbsp;&nbsp;<b>MEDIHEAL</b></a>
+      
+        <div class="collapse navbar-collapse fs-01 " id="navbarTogglerDemo03" >
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 w-100 d-flex justify-content-end">
+            <li class="nav-item active">
+              <a class="nav-link  mycol" href="/dashboard"><i class='fa fa-dashboard'></i> Dashboard<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mycol ac1 " href="/sales"><i class="bi bi-bar-chart-line-fill"></i> Sales</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link mycol" href="/medicinelist"><i class="bi bi-file-earmark-text"></i> Medicine-List</a>
+              </li>
+            
+              
+              <li class="nav-item dropdown mycol">
+                <a class="nav-link dropdown-toggle mycol"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-user"></i>
+                </a>
+                <div class="dropdown-menu  dropdown-menu-right"  aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Setting</a>
+                  <a class="dropdown-item" href="/logout">Log Out</a>
+                  
+              </li>
+            
+          </ul>
+          
+        </div>
+      </nav>
+      
+      <div class="my-5 container">
+        
+          <form action="/sold" method="POST">
+                    <div class="mb-3">
+                        <label for="pname" class="form-label text-capitalize">enter product name</label>
+                        <input type="text" name="pname" id="pname" class="form-control" placeholder="Enter Name of product" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="qty" class="form-label text-capitalize">Quantity</label>
+                        <input type="text" name="quantity" id="qty" class="form-control" placeholder="Quantity" required>
+                    </div>
+                
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+             </div>
+             </form>
+          </div>
+        </div>
+      </div>
+        <div class="card-body container">
+                        <table class="table table-bordered text-center">
+                            <thead>
+                              <tr>
+                                <th scope="col">Product Name</th>
+                                <th scope="col">Qty</th>
+                                <th scope="col">Amount</th>
+                                <th scope="col">Date</th>
+                              </tr>
+                            </thead>
+                             <tbody>
+                          {{#each data}}
+                          <tr>
+                            <td class="text-capitalize">{{commodityname}}</td>
+                            <td class="text-capitalize">{{quantity}}</td>
+                            <td class="text-capitalize">{{amount}}</td>
+                            <td class="text-capitalize">{{date}}</td>
+                          </tr>
+                          {{/each}}
+                        </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+      </div>
+                 
+               
+                    
+        </main>
+          
+        <!-- JavaScript Bundle with Popper -->
+  
+            
+            
+            
+              
+              
+        </div>
+        
+        
+        
+       </div>
+</div>
+            
+         
+
+</body>
+</html>
