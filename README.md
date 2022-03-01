@@ -90,6 +90,16 @@ Here, User can see what all transaction and sales are done of the day.
 
 ![image](https://user-images.githubusercontent.com/78952632/156105348-0771dbc4-9432-490e-8d73-53d7b4c912e4.png)
 
+LOGOUT
+
+![image](https://user-images.githubusercontent.com/78952632/156107061-20cfc51f-baf3-4db1-8186-f440cf887fe3.png)
+       
+       
+       
+                                                                                                     ~BY SURANI KEVAL HASMUKH
+
+
+
 
 
 
