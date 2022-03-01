@@ -36,6 +36,14 @@ multiple ways of storing and processing data. As such, it
 is classified as a multimodel database. In multimodel databases,
 various database engines are natively supported and accessible
  via common APIs.
+ Azure App Service :- It helps for the deployment of the project from machine to azure
+ Visual Studio Code :- Coding part and testing part is done VS code.
  Screenshot below is the database in Azure Cosmos DB:-
+ 
+![1](https://user-images.githubusercontent.com/78952632/156102555-63b866a2-9286-4447-bec5-4a99b73b031c.jpg)
 
+
+------------------------------------------------------------------
+Screenshots [PROJECT :- MEDIHEAL]
+------------------------------------------------------------------
 
