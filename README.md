@@ -93,6 +93,23 @@ Here, User can see what all transaction and sales are done of the day.
 LOGOUT
 
 ![image](https://user-images.githubusercontent.com/78952632/156107061-20cfc51f-baf3-4db1-8186-f440cf887fe3.png)
+
+
+
+
+Run Locally
+
+Clone Project
+
+https://github.com/kevalsurani15/Mediheal
+
+Install dependencies
+
+  npm install
+  
+Run the server
+
+  node app.js
        
        
        
