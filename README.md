@@ -14,6 +14,12 @@ user-freindly for the staff of the medical store. By Our  inventory i.e MEDIHEAL
 extension then it can be done easily.
 
 ------------------------------------------------------------------
+EXISTING ID
+------------------------------------------------------------------
+ID:-test@test.com
+PASSWORD:-12345
+
+------------------------------------------------------------------
 Features 
 ------------------------------------------------------------------
 1) Total transaction,Sales(today),Medicine Expiring.
